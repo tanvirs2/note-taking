@@ -5,7 +5,7 @@
     <h1 class="text-center h1 bg-dark text-light rounded p-3">
         <b>
             @if($note->title)
-                {{$note->title}}
+                {{ucfirst($note->title)}}
             @else
                 Not set Title
             @endif
