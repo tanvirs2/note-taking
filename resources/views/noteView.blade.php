@@ -14,7 +14,6 @@
 
 
 <div class="bottom-panel">
-    <div id="save-status" class="badge badge-success">Start Typing</div>
     <div>
         <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
             <i class="fa fa-key"></i> Password
