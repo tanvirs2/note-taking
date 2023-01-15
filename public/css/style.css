@@ -1,0 +1,56 @@
+* {
+    border-radius: 0 !important;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social-login-text {
+    padding-bottom: 20px;
+}
+
+.user-note-heading {
+    padding: 30px;
+    font-weight: 400;
+}
+
+.site-info {
+    margin-top: 50px;
+}
+
+.site-info h1,
+.site-info h2 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.action-buttons button {
+    /*margin-right: 10px;*/
+}
+
+#myInput {
+    display: none;
+}
+
+.bottom-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#notesTable_wrapper {
+    width: 100%;
+}
+
+.note-group-select-from-files {
+    display: none;
+}
+
+.b-3 {
+    border-width: 2px;
+}
+
+div.note-editable.card-block p {
+    margin-bottom: 0;
+}
