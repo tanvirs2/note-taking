@@ -15,7 +15,7 @@
     <title>
         TNV Note:
         @if($note->title)
-            {{$note->title}}
+            {{ucfirst($note->title)}}
         @else
             Not set Title
         @endif
@@ -25,7 +25,7 @@
 
     <meta property="og:title" content="TNV Note:
         @if($note->title)
-            {{$note->title}}
+            {{ucfirst($note->title)}}
             @else
                 Not set Title
         @endif
@@ -35,7 +35,7 @@
     <meta property="og:url" content="https://paste.imranpollob.com">
     <meta property="og:site_name" content="TNV Note:
         @if($note->title)
-            {{$note->title}}
+            {{ucfirst($note->title)}}
             @else
                 Not set Title
         @endif
@@ -43,7 +43,7 @@
 
     <meta name="twitter:title" content="TNV Note:
         @if($note->title)
-            {{$note->title}}
+            {{ucfirst($note->title)}}
             @else
                 Not set Title
         @endif"
