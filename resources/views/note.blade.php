@@ -26,6 +26,10 @@
         <button type="button" class="btn btn-warning btn-sm copyViewLinkToClipboard" data-toggle="tooltip" data-placement="top" title="Copy Article link">
             <i class="fa fa-copy"></i> <span class="d-none d-md-inline">Copy Article link</span>
         </button>
+
+        <a href="{{ route("noteView", $urlId) }}" target="_blank" class="btn btn-info btn-sm copyViewLinkToClipboard" data-toggle="tooltip" data-placement="top" title="Open Article">
+            <i class="fa fa-globe"></i> <span class="d-none d-md-inline">Open</span>
+        </a>
     </div>
 </div>
 
