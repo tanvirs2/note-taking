@@ -2,10 +2,18 @@
 
 @section('content')
 
-    <h3>
-        {{$note->title}}
-    </h3>
+    <h1 class="text-center h1 bg-dark text-light rounded p-3">
+        <b>
+            @if($note->title)
+                {{$note->title}}
+            @else
+                Not set Title
+            @endif
+        </b>
+    </h1>
 
+    <hr>
+    <br>
 
     <div class="form-group">
         {!! $note->data !!}
