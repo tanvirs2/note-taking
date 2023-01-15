@@ -73,40 +73,5 @@
 @endsection
 
 @section('javascript')
-<script>
-    $(document).ready(function() {
-
-        $('.copyToClipboard').click(function() {
-            let text = window.location.href;
-
-            const copyTextInput = $("#myInput");
-            copyTextInput.show();
-            copyTextInput.val(text);
-            copyTextInput.select();
-            document.execCommand("copy");
-            copyTextInput.hide();
-
-            $(this).attr('data-original-title', 'Link is copied to clipboard').tooltip('show');
-
-            $(this).attr('data-original-title', 'Copy link to clipboard');
-        });
-
-        $('.copyViewLinkToClipboard').click(function() {
-
-            let text = '{{ route("noteView", $urlId) }}';
-
-            const copyTextInput = $("#myInput");
-            copyTextInput.show();
-            copyTextInput.val(text);
-            copyTextInput.select();
-            document.execCommand("copy");
-            copyTextInput.hide();
-
-            $(this).attr('data-original-title', 'Link is copied to clipboard').tooltip('show');
-
-            $(this).attr('data-original-title', 'Copy link to clipboard');
-        });
-
-    });
-</script>
+    @include("js.btn")
 @endsection

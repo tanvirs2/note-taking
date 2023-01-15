@@ -22,7 +22,7 @@
             <i class="fa fa-copy"></i> <span class="d-none d-md-inline">Copy link to clipboard</span>
         </button>
 
-        <button type="button" class="btn btn-warning btn-sm copyToClipboard" data-toggle="tooltip" data-placement="top" title="Copy Article link">
+        <button type="button" class="btn btn-warning btn-sm copyViewLinkToClipboard" data-toggle="tooltip" data-placement="top" title="Copy Article link">
             <i class="fa fa-copy"></i> <span class="d-none d-md-inline">Copy Article link</span>
         </button>
     </div>
@@ -62,24 +62,5 @@
 @endsection
 
 @section('javascript')
-<script>
-    $(document).ready(function() {
-
-        $('.copyToClipboard').click(function() {
-            let text = window.location.href;
-
-            const copyTextInput = $("#myInput");
-            copyTextInput.show();
-            copyTextInput.val(text);
-            copyTextInput.select();
-            document.execCommand("copy");
-            copyTextInput.hide();
-
-            $(this).attr('data-original-title', 'Link is copied to clipboard').tooltip('show');
-
-            $(this).attr('data-original-title', 'Copy link to clipboard');
-        })
-
-    });
-</script>
+    @include("js.btn")
 @endsection

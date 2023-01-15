@@ -17,7 +17,7 @@ Route::get('/callback/{provider}', 'SocialController@callback');
 Route::get('/dashboard', 'HomeController@dashboard')->middleware(['auth', 'admin'])->name('dashboard');
 Route::delete('/dashboard', 'HomeController@delete')->middleware(['auth', 'admin'])->name('dashboard');
 
-Route::get('{url}', 'NotesController@index');
+Route::get('{url}', 'NotesController@index')->name('noteWrite');
 Route::get('view/{url}', 'NotesController@noteView')->name('noteView');
 Route::post('{url}', 'NotesController@store');
 Route::post('{url}/password', 'NotesController@password');
