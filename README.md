@@ -1,8 +1,8 @@
-# Paste Online - Free store and shar
+# TNV Note - Free store and shar
 
-Paste online is a free tool for storing and sharing your notes.
+TNV Note is a free tool for storing and sharing your notes.
 
-[Paste Online](https://paste.imranpollob.com)
+[TNV Note]
 
 
-![Paste Online](https://i.ibb.co/s95vBmL/paste-online.png "Paste Online")
+![TNV Note]

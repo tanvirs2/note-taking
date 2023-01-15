@@ -20,7 +20,7 @@
             Not set Title
         @endif
     </title>
-    <meta name="description" content="Paste online is a free tool for storing and sharing your notes. No registration required." />
+    <meta name="description" content="TNV Note is a free tool for storing and sharing your notes. No registration required." />
     <meta name="robots" content="”index," follow” />
 
     <meta property="og:title" content="TNV Note:
@@ -30,7 +30,7 @@
                 Not set Title
         @endif
         ">
-    <meta property="og:description" content="Paste online is a free tool for storing and sharing your notes. No registration required.">
+    <meta property="og:description" content="TNV Note is a free tool for storing and sharing your notes. No registration required.">
     <meta property="og:image" content="https://paste.imranpollob.com/android-chrome-512x512.png">
     <meta property="og:url" content="https://paste.imranpollob.com">
     <meta property="og:site_name" content="TNV Note:
@@ -48,7 +48,7 @@
                 Not set Title
         @endif"
     >
-    <meta name="twitter:description" content="Paste online is a free tool for storing and sharing your notes. No registration required.">
+    <meta name="twitter:description" content="TNV Note is a free tool for storing and sharing your notes. No registration required.">
     <meta name="twitter:image" content="https://paste.imranpollob.com/android-chrome-512x512.png">
     <meta name="twitter:card" content="summary">
 
